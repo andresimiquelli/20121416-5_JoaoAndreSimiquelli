@@ -1,3 +1,6 @@
+<?php 
+    require_once('functions/load_page.php');
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -28,7 +31,7 @@
             align-items: center;
             justify-content: center;
             background-image: url('images/background_1.jpg');
-            background-size: 300px;
+            background-size: 200px;
         }
 
         .logo{
@@ -92,6 +95,7 @@
         .container-footer{
             padding: 20px 0 20px 0;
             text-align: center;
+            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -112,13 +116,18 @@
     <div class="topbar"></div>
     <div class="content">
         <div class="container">
-
+            <?php load_page();?>
         </div>
     </div>
     <div class="bottombar"></div>
     <footer>
         <div class="container container-footer">
-
+            <strong>João André Simiquelli</strong><br/>
+            RA: 20121416-5
+            <p>
+                Disciplina: Back End I 53/2021 <br/>
+                Sistemas para Internet
+            </p>
         </div>
     </footer>
 </body>
