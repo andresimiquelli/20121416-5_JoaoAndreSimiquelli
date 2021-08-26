@@ -97,6 +97,34 @@
             text-align: center;
             font-size: 0.9rem;
         }
+
+        .card {
+            text-align: center;
+            width: 30%;
+            margin-top: 30px;
+        }
+
+        @media(max-width: 899px){
+            .card {
+                width: 49%;
+            }
+        }
+
+        .card img{
+            width: 200px;
+            height: 200px;
+            border-radius: 150px;
+        }
+
+        .card a:hover{
+            color:  #d40000;
+        }
+
+        .list-prod{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
