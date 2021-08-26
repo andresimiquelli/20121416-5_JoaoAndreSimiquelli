@@ -5,3 +5,6 @@
 <div class="list-prod">
     <?php lista_produtos($produtos);?>
 </div>
+<script>
+    change_title("Doces de Minas");
+</script>

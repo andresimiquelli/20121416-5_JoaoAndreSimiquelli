@@ -13,3 +13,6 @@
 <p style="margin-bottom: 30px;">
     Hoje, somos uma pequena empresa familiar que ajuda a adoçar a vida de muitos clientes Brasil a fora. Experimente você também uma das delícias da <strong>Doce de Minas</strong>.
 </p>
+<script>
+    change_title("Doces de Minas");
+</script>
