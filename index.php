@@ -63,7 +63,9 @@
 
         .container{
             max-width: 900px;
-            width: 100%;
+            width: 90%;
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         .container-nav{
