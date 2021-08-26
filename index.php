@@ -136,9 +136,9 @@
     <nav>
         <div class="container container-nav">
             <a href="index.php" class="nav-link">Home</a>
-            <a href="index.php" class="nav-link">Quem somos</a>
-            <a href="index.php" class="nav-link">Contato</a>
-            <a href="index.php" class="nav-link">Localização</a>
+            <a href="index.php?page=quem_somos" class="nav-link">Quem somos</a>
+            <a href="index.php?page=contato" class="nav-link">Contato</a>
+            <a href="index.php?page=localizacao" class="nav-link">Localização</a>
         </div>
     </nav>
     <div class="topbar"></div>
